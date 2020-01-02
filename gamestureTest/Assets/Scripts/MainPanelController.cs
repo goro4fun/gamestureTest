@@ -46,7 +46,7 @@ public class MainPanelController : MonoBehaviour
     private IEnumerator ShowTextCanvasCoroutine()
     {
         textCanvas.SetActive(true);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(3f);
         textCanvas.SetActive(false);
     }
 }
